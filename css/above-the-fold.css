@@ -1,0 +1,13 @@
+#above-the-fold {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/images/above-the-fold-bg.jpg);
+  background-size: cover;
+}
+
+.dotted-overlay {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(/images/dotted-pattern.png);
+  background-size: cover;
+}
