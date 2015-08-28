@@ -2,7 +2,6 @@ $( document ).ready(function() {
 
   $(".main-video-placeholder").click(function(){
     $(this).hide();
-    console.log($(this));
   });
 
   $('#play-video').on('click', function(ev) {
