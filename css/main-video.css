@@ -1,0 +1,40 @@
+.main-video{
+  background-color: #F8F9FB;
+}
+
+.main-video-bg {
+  height: 532px;
+  position: relative;
+  background: url("../source/images/main-video-bg.jpg") no-repeat center bottom #f8f9fa;
+}
+
+.main-video-video {
+	position: absolute;
+  top: 72px;
+  left: 322px;
+}
+
+@media (max-width: 1200px) {
+  .main-video-video {
+    left: 222px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-video-video {
+    left: 112px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-video-bg {
+    background: no-repeat center bottom #f8f9fa;
+  }
+}
+
+@media (max-width: 670px){
+  .main-video-video{
+    width: 320px;
+    height: auto;
+  }
+}
