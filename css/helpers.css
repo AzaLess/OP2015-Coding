@@ -1,0 +1,14 @@
+h2 {
+  color: #ffffff;
+  font-family: "AAvanteBs", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  transform: scaleX(1.0032);
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.grey { 
+  color: #505050;
+}

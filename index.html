@@ -8,11 +8,24 @@
   <link rel="stylesheet" href="css/helpers.css">  
   <link rel="stylesheet" href="css/above-the-fold.css">
   <link rel="stylesheet" href="css/main-video.css">
+  <link rel="stylesheet" href="css/schedule.css">
   <link rel="stylesheet" href="css/partners.css">
   <style type="text/css">
     @font-face {
       font-family: "AAvanteBs";
       src:  local('Glee Font'), local('Glee-Font'), url('./source/fonts/a_AvanteBs/glee_font.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: "AAvanteTckMedium";
+      src:  local('AAvanteTckMedium'), url('./source/fonts/a_AvanteBs/AAvanteTckMedium.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: "AAvanteLtLight";
+      src:  local('AAvanteLtLight'), url('./source/fonts/a_AvanteBs/AAvanteLtLight.ttf') format('truetype');
+    }
+    @font-face {
+      font-family: "AAvanteBsExtraBold";
+      src:  local('AAvanteBsExtraBold'), url('./source/fonts/a_AvanteBs/AAvanteBsExtraBold.ttf') format('truetype');
     }
   </style>
   <meta charset="UTF-8">
@@ -34,13 +47,457 @@
         </div>
       </div>
     </section>
-    <section id="schedule"></section>
+    <section id="schedule">
+      <div class="container">
+        <div class="row">
+          <h2 class="grey">ПРОГРАММА</h2>
+        </div>
+        <div class="row low-row">
+          <div class="col-md-4 col-md-offset-4 col-xs-12">
+            <img src="./source/images/1-day.jpg" class="img-responsive img-overlapping" alt="Hall">
+          </div>
+        </div>
+        <div class="row hall-borders">
+          <div class="col-md-4 col-xs-12"> 
+            <img src="./source/images/sales-marketing.png" class="img-responsive img-hall" alt="Hall">
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img src="./source/images/project-management.png" class="img-responsive img-hall" alt="Hall">
+          </div>
+          <div class="col-md-4 col-xs-12">
+            <img src="./source/images/business-strategy.png" class="img-responsive img-hall" alt="Hall">
+          </div>
+        </div>
+      </div>
+      <div class="schedule-chapter-wrapper rosybrown">
+        <div class="container">
+          <div class="row">
+            <img class="icon-schedule img-responsive" src="./source/images/registration-icon.png" alt="Hall">
+            <p class="alignleft p-time-schedule">9:00</p>
+            <p class="aligncenter p-schedule">Регистрация</p>
+          </div>
+        </div>
+      </div>
+      <div class="schedule-chapter-wrapper dimgray">
+        <div class="container">
+          <div class="row">
+            <img class="icon-schedule img-responsive" src="./source/images/intro-icon.png" alt="Hall">
+            <p class="alignleft p-time-schedule">9:45</p>
+            <p class="aligncenter p-schedule">Вступительное слово организаторов</p>
+          </div>
+        </div>
+      </div>
+      <div class="container schedule-border">
+        <div class="row schedule-grey">
+          <p class="alignleft p-time-schedule-blue">8:34</p>
+          <div class="alignright">
+            <button type="button" class="btn btn-info btn-vip">Купить VIP билет</button>
+          </div>
+          <div class="alignright closed-meeting" >
+            <p class="p-schedule-closed-meeting">Закрытая встреча с</p>
+            <p class="p-schedule-closed-meeting-name">Имя уточняется</p>
+          </div>
+        </div>
+        <div class="row three-participants">
+          <div class="col-md-4 col-xs-12 america-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 europe-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-waiting-approval alignleft">Ждем подтверждения</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 australia-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+        </div>        
+      </div>
+      <div class="container schedule-border">
+        <div class="row schedule-grey">
+          <p class="alignleft p-time-schedule-blue">12:00</p>
+        </div>
+                <div class="row three-participants">
+          <div class="col-md-4 col-xs-12 america-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 europe-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ДИСКУССИОННАЯ ПАНЕЛЬ
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-discussion">Перспективы развития и консолтдации отрасли.Новые вызовы</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <div class="col-md-3 col-xs-3">
+                  <img src="./source/images/argumenter.png" class="" alt="Hall">
+                </div>
+                <div class="col-md-3 col-xs-3">
+                  <img src="./source/images/argumenter.png" class="" alt="Hall">
+                </div>
+                <div class="col-md-3 col-xs-3">
+                  <img src="./source/images/argumenter.png" class="" alt="Hall">
+                </div>
+                <div class="col-md-3 col-xs-3">
+                  <img src="./source/images/argumenter.png" class="" alt="Hall">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 australia-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="schedule-chapter-wrapper lightseagreen">
+        <div class="container">
+          <div class="row">
+            <img class="icon-schedule img-responsive" src="./source/images/cofebreak-icon.png" alt="Hall">
+            <p class="alignleft p-time-schedule">13:00 - 14:00</p>
+            <p class="aligncenter p-schedule padding-right125">Кофебрейк</p>
+          </div>
+        </div>
+      </div>
+      <div class="container schedule-border">
+        <div class="row schedule-grey">
+          <p class="alignleft p-time-schedule-blue">14:00</p>
+        </div>
+                <div class="row three-participants">
+          <div class="col-md-4 col-xs-12 america-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 europe-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 australia-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="schedule-chapter-wrapper darkkhaki">
+        <div class="container">
+          <div class="row">
+            <img class="icon-schedule img-responsive" src="./source/images/dinner-icon.png" alt="Hall">
+            <p class="alignleft p-time-schedule">15:00</p>
+            <p class="aligncenter p-schedule padding-right17">Обед</p>
+          </div>
+        </div>
+      </div>
+      <div class="container schedule-border">
+        <div class="row schedule-grey">
+          <p class="alignleft p-time-schedule-blue">14:00</p>
+        </div>
+                <div class="row three-participants">
+          <div class="col-md-4 col-xs-12 america-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 europe-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 australia-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container schedule-border">
+        <div class="row schedule-grey">
+          <p class="alignleft p-time-schedule-blue">17:00</p>
+        </div>
+                <div class="row three-participants">
+          <div class="col-md-4 col-xs-12 america-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 europe-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-12 australia-bg">
+            <div class="row">
+              <div class="col-md-4 col-xs-4 padding-for-participant-img">
+                <img src="./source/images/participant.png" class="participant" alt="Hall">
+                <img src="./source/images/flag-usa.png" class="flag" alt="Country">
+              </div>
+              <div class="col-md-8 col-xs-8 padding-for-participant-info">
+                 <p class="p-schedule-name">ЮРИЙ ФЕСЕНКО
+                  <a href="javascript:;">
+                    <img src="./source/images/info-icon.png" style="vertical-align: middle"/>
+                  </a>
+                </p>
+                <p class="p-schedule-role-company ">PM @ MagneticOne</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12">
+                <p class="p-schedule-article alignleft">Business continuity planning is key for Outsourcing providers in Ukraine</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="schedule-chapter-wrapper  indianred">
+        <div class="container">
+          <div class="row">
+            <img class="icon-schedule img-responsive" src="./source/images/closure-icon.png" alt="Hall">
+            <p class="alignleft p-time-schedule">18:45</p>
+            <p class="aligncenter p-schedule">Закрытие дня и неформальное общение</p>
+          </div>
+        </div>
+      </div>
+      <div class="schedule-chapter-wrapper slategray">
+        <div class="container">
+          <div class="row">
+            <img class="icon-schedule img-responsive" src="./source/images/intertainment-icon.png" alt="Hall">
+            <p class="alignleft p-time-schedule">19:45</p>
+            <p class="aligncenter p-schedule">Культурная программа</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="close-meetings"></section>
     <section id="expert-tables"></section>
     <section id="partners" class="partners">
       <div class="container">
         <div class="row">
-          <h2>ПАРТНЕРЫ</h2>
+          <h2 class="grey">ПАРТНЕРЫ</h2>
         </div>
         <div class="row">
           <div class="col-md-2 col-xs-6">
