@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/helpers.css">
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/helpers.css">  
+  <link rel="stylesheet" href="css/above-the-fold.css">
+  <link rel="stylesheet" href="css/main-video.css">
 
-    <link rel="stylesheet" href="css/above-the-fold.css">
-
-    <meta charset="UTF-8">
-    <title>Outsource People 2015</title>
-  </head>
-  <body>
-    <main class="wrapper">
-      <header id="above-the-fold">
+  <meta charset="UTF-8">
+  <title>Outsource People 2015</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header id="above-the-fold">
         <div class="dotted-overlay"></div>
-      </header>
-      <section id="value-proposition"></section>
-      <section id="main-video"></section>
-      <section id="schedule"></section>
-      <section id="close-meetings"></section>
-      <section id="expert-tables"></section>
-      <section id="partners"></section>
-      <section id="tickets"></section>
-      <section id="last-year-experience"></section>
-      <section id="testimonials"></section>
-      <section id="become-speaker"></section>
-      <section id="faq"></section>
-      <section id="reasons-to-participate"></section>
-      <section id="feedback-from-participant"></section>
-      <section id="organizers"></section>
-      <section id="companies-participants"></section>
-      <footer id="footer"></footer>
-    </main><!-- end wrapper -->
-  </body>
+    </header>
+    <section id="value-proposition"></section>
+    <section id="main-video" class="main-video">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="main-video-bg">
+              <iframe width="523" height="392" class="main-video-video" id="video" src="https://www.youtube.com/embed/dRn5DQplcHs?rel=0" frameborder="0" allowfullscreen></iframe>
+              <img src="./source/images/main_video_placeholder.jpg" id="play-video" class="main-video-video main-video-placeholder"  alt="Outsorce people 2012" height="392" width="523" >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="schedule"></section>
+    <section id="close-meetings"></section>
+    <section id="expert-tables"></section>
+    <section id="partners"></section>
+    <section id="tickets"></section>
+    <section id="last-year-experience"></section>
+    <section id="testimonials"></section>
+    <section id="become-speaker"></section>
+    <section id="faq"></section>
+    <section id="reasons-to-participate"></section>
+    <section id="feedback-from-participant"></section>
+    <section id="organizers"></section>
+    <section id="companies-participants"></section>
+    <footer id="footer"></footer>
+  </div><!-- end wrapper -->
+  <script src="./source/javascript/main-video-javascript.js"></script>
+</body>
 </html>
