@@ -3,6 +3,7 @@
   min-height: 100vh;
   background-image: url(/images/above-the-fold-bg.jpg);
   background-size: cover;
+  padding: 20px 0;
 }
 
 .dotted-overlay {
@@ -10,4 +11,35 @@
   min-height: 100vh;
   background-image: url(/images/dotted-pattern.png);
   background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top-nav {
+  position: relative;
+}
+.top-nav ul {
+  text-align: justify;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 75%;
+}
+.top-nav ul:after{content:""; margin-left:100%;}
+.top-nav li {
+  display: inline-block;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+}
+
+.top-nav li a {
+  font-weight: 400;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.top-nav li a:hover {
+  text-decoration: none;
 }
