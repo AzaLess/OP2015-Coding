@@ -4,7 +4,9 @@
 
 .img-hall{
   margin-top: 50px;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
+  padding-left: 60px;
+
 }
 
 .img-overlapping{
@@ -81,7 +83,7 @@
   color:  #ffffff;
   font-size: 30px;
   font-weight: 400;
-  margin-top: -28px;
+  margin: -28px 0 0 10px ;
 }
 
 .p-time-schedule-blue{
@@ -89,7 +91,7 @@
   color:  #28aae0;
   font-size: 30px;
   font-weight: 400;
-  margin-top: 10px;
+  margin: 10px 0 0 10px ;
 }
 
 .three-participants {
@@ -133,6 +135,7 @@
   color:  #515151;
   font-size: 14px;
   font-weight: 400;
+  margin-left: 10px;
 }
 
 .p-waiting-approval {
@@ -247,5 +250,15 @@
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  }
+}
+
+@media (max-width: 380px) {
+  .participant {
+    width: 80%;
+    height: 80%
+  }
+  .flag{
+    top:50px;
   }
 }
