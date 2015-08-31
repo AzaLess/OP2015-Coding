@@ -1,0 +1,75 @@
+/*---------------- value-proposition ---------------*/
+#value-proposition{
+	position:relative; /* добавили */
+	width: 100%;
+	height: 630px;
+	background-image: url(../source/images/value-proposition.png);
+	text-align: center;
+}
+@media (max-width: 767px) {
+	#value-proposition{
+	height:510px;
+	}
+}
+.ellips-image{
+	margin-left:40px;
+	width:100%;
+	max-width: 745px;
+	height: 366px;
+	background-image: url(../source/images/Ramada_Encore.png);
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: contain;
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+	.ellips-image{
+		width: 80%;
+		height:233px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 440px) {
+	.ellips-image{
+		width: 80%;
+		height:170px;
+		margin: 0 auto;
+	}
+}
+
+.ellips-image-content{
+	width: 785px;
+	margin: 0 auto;
+	@media (max-width: 785px) { width: 60%; }
+}
+
+@media (max-width: 767px) {
+	.ellips-image-content{
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+.see-on-map-btn{
+	width: 180px;
+	margin: 0 auto;
+	margin-top: -50px;
+}
+
+@media (max-width: 767px) {
+	.see-on-map-btn{
+		width: 80%;
+		margin-top: -30px;
+	}
+}
+
+.value-proposition-header{
+	color: #ffffff;
+	font-size: 40px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+	font-family: AAvanteBsExtraBold;
+}
+
+/*----------------END value-proposition END --------------*/
