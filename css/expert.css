@@ -1,0 +1,46 @@
+.snowwhite{
+  background-color: white;
+}
+
+.p-expert-big {
+  font-family: AAvanteBsExtraBold, sans-serif;
+  color:  #515151;
+  font-size: 40px;
+  font-weight: 400;
+  border-top: 1px solid #c4c4c4;
+}
+
+.p-expert-small {
+  font-family: AAvanteTckMedium;
+  color:  #515151;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.p-schedule-desk{
+  font-family: Arial;
+  color:  #515151;
+  font-size: 18px;
+  font-weight: 400;
+  display : inline;
+}
+
+.span-schedule-desk-name{
+  font-family: Arial;
+  color:  #54b7e2;
+  font-size: 18px;
+  font-weight: 400;
+  display : inline;
+}
+
+@media (max-width: 566px) {
+  .p-expert-big {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 566px) {
+  .p-expert-small {
+    font-size: 12px;
+  }
+}
