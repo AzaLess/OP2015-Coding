@@ -1,0 +1,134 @@
+/*---------------- value-proposition ---------------*/
+#value-proposition{
+	position:relative; /* добавили */
+	width: 100%;
+	height: 630px;
+	background-image: url(../source/images/value-proposition.png);
+	text-align: center;
+}
+@media (max-width: 767px) {
+	#value-proposition{
+	height:510px;
+	}
+}
+.ellips-image{
+	margin-left:40px;
+	width:100%;
+	max-width: 745px;
+	height: 366px;
+	background-image: url(../source/images/Ramada_Encore.png);
+	background-repeat: no-repeat;
+	position: relative;
+	background-size: contain;
+	text-align: center;
+}
+
+@media (max-width: 767px) {
+	.ellips-image{
+		width: 80%;
+		height:233px;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 440px) {
+	.ellips-image{
+		width: 80%;
+		height:170px;
+		margin: 0 auto;
+	}
+}
+
+.ellips-image-content{
+	width: 785px;
+	margin: 0 auto;
+	@media (max-width: 785px) { width: 60%; }
+}
+
+@media (max-width: 767px) {
+	.ellips-image-content{
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+.see-on-map-btn{
+	position: relative;
+	width: 180px;
+	margin: 0 auto;
+	margin-top: -50px;
+}
+
+@media (max-width: 767px) {
+	.see-on-map-btn{
+		width: 80%;
+		margin-top: -30px;
+	}
+}
+
+.value-proposition-header{
+	color: #ffffff;
+	font-size: 40px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	text-align: center;
+	font-family: AAvanteBsExtraBold;
+}
+
+
+
+
+/*------     courusel ---------------------*/
+.b-wrap-slider{margin: 0 auto; width:82%;}
+@media (max-width: 1000px) {
+  .b-wrap-slider{
+    height:62%;
+  }
+}
+@media (max-width: 480px) {
+  .b-wrap-slider{
+    height:62%;
+  }
+}
+.b-wrap-slider .bx-slider { list-style: none; vertical-align: top; position: relative; width: 2000em; }
+.b-wrap-slider .bx-wrapper {position: relative;margin: 0 auto !important;padding: 0;*zoom: 1;}
+.b-wrap-slider .bx-wrapper .bx-controls-direction a {margin: 0;outline: 0;	text-indent: -9999px;z-index: 10;display: block; }
+.b-wrap-slider .bx-wrapper .bx-controls-direction a.disabled {display: none;}
+.b-wrap-slider .bx-prev { left: -100px; top: 0px; position: absolute; width:33px; height:63px; background: url('../source/images/button-out-carusel:hover.png') center center no-repeat; cursor:pointer; font-size:0; line-height:0; text-indent:-9999em; overflow:hidden; opacity: 0.5; }
+.b-wrap-slider .bx-prev:hover { left: -100px; top: 0px; position: absolute; width:33px; height:63px; background: url('../source/images/button-out-carusel:hover.png') center center no-repeat; cursor:pointer; font-size:0; line-height:0; text-indent:-9999em; overflow:hidden; opacity: 1;}
+.b-wrap-slider .bx-next { right: -100px; top: 0px; position: absolute; width:33px; height:63px; background: url('../source/images/button-next-carusel:hover.png') center center no-repeat; cursor:pointer; font-size:0; line-height:0; text-indent:-9999em; overflow:hidden; opacity: 0.5; }
+.b-wrap-slider .bx-next:hover { right: -100px; top: 0px; position: absolute; width:33px; height:63px; background: url('../source/images/button-next-carusel:hover.png') center center no-repeat; cursor:pointer; font-size:0; line-height:0; text-indent:-9999em; overflow:hidden; opacity: 1;}
+@media (max-width: 900px) {
+  .b-wrap-slider .bx-prev{ left: -35px; top: 0px; position: absolute; width:33px; height:63px; background: url('../source/images/button-out-carusel:hover.png') center center no-repeat; cursor:pointer; font-size:0; line-height:0; text-indent:-9999em; overflow:hidden; opacity: 0.5; }
+  .b-wrap-slider .bx-prev:hover{ left: -35px; top: 0px; position: absolute; width:33px; height:63px; background: url('../source/images/button-out-carusel:hover.png') center center no-repeat; cursor:pointer; font-size:0; line-height:0; text-indent:-9999em; overflow:hidden; opacity: 1;}
+}
+@media (max-width: 900px) {
+  .b-wrap-slider .bx-next{ right: -35px; top: 0px; position: absolute; width:33px; height:63px; background: url('../source/images/button-next-carusel:hover.png') center center no-repeat; cursor:pointer; font-size:0; line-height:0; text-indent:-9999em; overflow:hidden; opacity: 0.5; }
+  .b-wrap-slider .bx-next:hover{ right: -35px; top: 0px; position: absolute; width:33px; height:63px; background: url('../source/images/button-next-carusel:hover.png') center center no-repeat; cursor:pointer; font-size:0; line-height:0; text-indent:-9999em; overflow:hidden; opacity: 1;}
+}
+
+.b-wrap-slider .bx-controls { z-index: 10; height: 0; left: 0px; top: 43px; position: absolute; width: 100%; }
+
+.bx-slider .b-item { border-radius:2px; width:144px; height:144px; position:relative; float:left; }
+.bx-slider .b-pic { top:4px; position:absolute; }
+
+
+.b-pic img{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  /*filter: url(desaturate.svg#greyscale); */
+  filter: gray;
+  -webkit-filter: grayscale(1);
+}
+
+.b-pic img:hover{
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: none;
+}
+/*------   END  courusel   END---------------------*/
+/*----------------END value-proposition END --------------*/
