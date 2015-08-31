@@ -1,11 +1,11 @@
 .main-video{
-  background-color: #F8F9FB;
+  background-color: #f8f9fa;
 }
 
 .main-video-bg {
   height: 532px;
   position: relative;
-  background: url("../source/images/main-video-bg.jpg") no-repeat center bottom #f8f9fa;
+  background: url("../source/images/main-video-bg.jpg") no-repeat center bottom ;
 }
 
 .main-video-video {
