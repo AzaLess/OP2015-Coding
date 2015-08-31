@@ -1,0 +1,290 @@
+.img-responsive {
+  margin: auto;
+}
+
+.img-hall{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 60px;
+
+}
+
+.img-overlapping{
+  margin: 20px auto -33px;
+}
+
+.hall-borders {
+    border: 1px solid #c4c4c4;
+    border-bottom: 0;
+}
+
+.low-row {
+  margin-top: -40px;
+}
+
+.rosybrown{
+  background-color: #d98;
+}
+
+.dimgray{
+  background-color: #566;
+}
+
+.lightseagreen{
+  background-color: #3bb;
+}
+
+.darkkhaki{
+  background-color: #cb5;
+}
+
+.indianred{
+  background-color: #e67;
+}
+
+.slategray{
+  background-color: #67a;
+}
+
+.schedule-grey{
+  background-color: #f5f5f5;
+}
+
+.schedule-border{
+  border-style: solid;
+  border-width: 1px;
+  border-color:  #c4c4c4;
+  border-bottom: 0;
+}
+
+.padding-right125{
+  padding-right: 125px;
+}
+
+.padding-right28{
+  padding-right: 28px;
+}
+
+.icon-schedule, .icon-schedule-coffee, .icon-schedule-dinner {
+  padding-left: 60px;
+  margin-top: 13px;
+}
+
+.p-schedule{
+  font-family: "AAvanteTckMedium", sans-serif;
+  color:  #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  
+}
+
+.p-time-schedule{
+  font-family: "AAvanteLtLight", sans-serif;
+  color:  #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  margin: -28px 0 0 10px ;
+}
+
+.p-time-schedule-blue{
+  font-family: "AAvanteLtLight", sans-serif;
+  color:  #28aae0;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px 0 0 10px ;
+}
+
+.three-participants {
+  margin: 10px auto 10px auto;
+}
+
+.schedule-chapter-wrapper {
+  border-top: 2px solid white;
+}
+
+.participant{
+  position: relative; top: 0; left: 0;
+}
+
+.flag{
+  position: absolute; top: 60px; left: 27px;
+}
+
+.p-schedule-name{
+  font-family: "AAvanteBsExtraBold", sans-serif;
+  color:  #515151;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.p-schedule-role-company{
+  font-family: Arial;
+  font-style: italic;
+  color:  #515151;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  margin-top: 0;
+}
+
+.p-schedule-article{
+  font-family: Arial;
+  font-style: normal;
+  color:  #515151;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.p-waiting-approval {
+  font-family: Arial;
+  color:  #ff003c;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.p-schedule-discussion {
+  font-family: Arial;
+  font-style: normal;
+  color:  #515151;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  margin-top: 0;
+}
+
+.p-schedule-closed-meeting {
+  font-family: "AAvanteBsExtraBold", sans-serif;
+  color:  #8e8e8e;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin:0;
+  /*transform: scaleY(1.0004);*/
+}
+
+.p-schedule-closed-meeting-name {
+  font-family: "AAvanteTckMedium";
+  font-style: italic;
+  color:  #8e8e8e;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin:0;
+  /*transform: scaleY(1.0004);*/
+}
+
+.closed-meeting {
+  margin: 5px;
+}
+
+.alignleft {
+  float: left;
+}
+.aligncenter {
+  text-align: center;
+}
+
+.alignright {
+  float: right;
+}
+
+.margin-right0 {
+  margin-right: 0;
+}
+
+.margin-left0 {
+  margin-left: 0;
+}
+
+.padding-for-participant-img {
+  padding: 0 0 0 30px;
+}
+
+.padding-for-participant-info {
+  padding: 0 30px 0 0;
+}
+
+.btn-vip {
+  border-radius: 25px;
+  background-color: #28aae0;
+  margin: 13px;
+}
+
+@media (max-width: 992px) {
+  .america-bg {
+      /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(244, 43, 64);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(244, 43, 64, 0.3);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  }
+}
+
+@media (max-width: 992px) {
+  .europe-bg {
+      /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(8, 118, 202);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(8, 118, 202, 0.3);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  }
+}
+
+@media (max-width: 992px) {
+  .australia-bg {
+      /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(19, 179, 113);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(19, 179, 113, 0.3);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+  }
+}
+
+@media (max-width: 425px) {
+  .participant {
+    width: 80%;
+    height: 80%
+  }
+  .flag{
+    top:50px;
+  }
+  .p-time-schedule, .p-time-schedule-blue{
+    font-size: 20px;
+  }
+  .p-schedule{
+    font-size: 12px;
+  }
+  .padding-right125 {
+    padding-right: 0;
+  }
+  .padding-right28{
+    padding-right: 3px;
+  }
+
+  .icon-schedule-coffee {
+    padding-left: 10px;
+  }
+
+  .icon-schedule-dinner {
+    padding-left: 0;
+  }
+}
+
+/*@media (max-width: 424px) {
+  .padding-right125 {
+    padding-right: 108px;
+  }
+}*/
