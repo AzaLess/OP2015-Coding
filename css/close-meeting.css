@@ -1,0 +1,29 @@
+.lightblue{
+  background-color: #0071fc;
+}
+
+.p-closed-meeting {
+  font-family: "AAvanteBsExtraBold", sans-serif;
+  color:  #ffffff;
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 190px;
+}
+
+.btn-vip-pink{
+  border-radius: 25px;
+  background-color: #f23864;
+  margin: 13px;
+}
+.btn-vip-pink:hover{
+  background-color: #f23864;
+  opacity:0.9;  
+}
+
+@media (max-width: 566px) {
+  .p-closed-meeting {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+}
