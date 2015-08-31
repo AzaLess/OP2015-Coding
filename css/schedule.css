@@ -61,11 +61,11 @@
   padding-right: 125px;
 }
 
-.padding-right17{
-  padding-right: 17px;
+.padding-right28{
+  padding-right: 28px;
 }
 
-.icon-schedule {
+.icon-schedule, .icon-schedule-coffee, .icon-schedule-dinner {
   padding-left: 60px;
   margin-top: 13px;
 }
@@ -253,7 +253,7 @@
   }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 425px) {
   .participant {
     width: 80%;
     height: 80%
@@ -261,4 +261,30 @@
   .flag{
     top:50px;
   }
+  .p-time-schedule, .p-time-schedule-blue{
+    font-size: 20px;
+  }
+  .p-schedule{
+    font-size: 12px;
+  }
+  .padding-right125 {
+    padding-right: 0;
+  }
+  .padding-right28{
+    padding-right: 3px;
+  }
+
+  .icon-schedule-coffee {
+    padding-left: 10px;
+  }
+
+  .icon-schedule-dinner {
+    padding-left: 0;
+  }
 }
+
+/*@media (max-width: 424px) {
+  .padding-right125 {
+    padding-right: 108px;
+  }
+}*/
