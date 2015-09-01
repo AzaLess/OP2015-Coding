@@ -43,3 +43,60 @@
 .top-nav li a:hover {
   text-decoration: none;
 }
+
+.top-title {
+  font-size: 1em;
+  font-family: 'AAvanteBs', sans-serif;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.top-title h1 {
+  font-size: 3.429em;
+  text-transform: uppercase;
+}
+
+.top-title p {
+  font-size: 2.571em;
+}
+
+.main-menu {
+  position: relative;
+  text-align: center;
+}
+.main-menu ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.main-menu .ticket-button a {
+  background: url('/images/ticket-button.png') no-repeat top left; 
+  width: 148px; 
+  height: 68px;
+  background-position: 0 0;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 13px 15px;
+  position: relative;
+  top: 8px;
+}
+.main-menu .ticket-button a:hover {
+  border: none;
+  background: url('/images/ticket-button.png') no-repeat top left; 
+  background-position: 0 -78px;
+}
+.main-menu ul a {
+  display: inline-block;
+  color: #28aae0;
+  background-color: #fff;
+  padding: 10px 20px;
+  border: 1px solid #28aae0;
+  border-radius: 5px;
+  font-family: 'AAvanteBs', sans-serif;
+}
+.main-menu ul a:hover {
+  color: #fff;
+  border: 1px solid #28aae0;
+  background-color: #28aae0;
+}
